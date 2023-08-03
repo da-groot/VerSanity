@@ -15,6 +15,9 @@ interface Query {
   [key: string]: string
 }
 
+// change
+
+
 export default function Page(props: PageProps) {
   const { posts, settings, draftMode } = props
 
